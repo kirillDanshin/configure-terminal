@@ -15,13 +15,13 @@ cd ..
 rm -rf fonts
 # install python-devel. one of this commands will fail but it\'s ok.
 # yum command will work on fedora too.
-sudo yum install python-devel
-sudo apt-get install python-dev
+sudo yum install -y python-devel
+sudo apt-get install -y python-dev
 # install thefuck
 sudo pip install thefuck
 # install oh-my-zsh deps
-sudo yum install git zsh
-sudo apt-get install git zsh
+sudo yum install -y git zsh
+sudo apt-get install -y git zsh
 # setup oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
@@ -37,6 +37,6 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gb='git branch '" >> .zshrc
 # install htop
-sudo yum install htop
-sudo apt-get install htop
+sudo yum install -y htop
+sudo apt-get install -y htop
 ```
