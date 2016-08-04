@@ -24,4 +24,16 @@ sudo yum install git zsh
 sudo apt-get install git zsh
 # setup oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' .zshrc
+sed -i 's/plugins=(git)/plugins=(git lol go golang iwhois npm sudo systemadmin fancy-ctrl-z cp thefuck)/g' .zshrc
+echo "alias gs='git status'
+alias gush='git push '
+alias gull='git pull '
+alias ga='git add '
+alias gc='git commit'
+alias gd='git diff'
+alias gch='git checkout'
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias gb='git branch '" >> .zshrc
 ```
