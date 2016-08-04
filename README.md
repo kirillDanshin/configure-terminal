@@ -12,6 +12,8 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+# install thefuck
+sudo pip install thefuck
 # setup oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
