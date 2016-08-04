@@ -36,4 +36,7 @@ alias gch='git checkout'
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gb='git branch '" >> .zshrc
+# install htop
+sudo yum install htop
+sudo apt-get install htop
 ```
