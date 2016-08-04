@@ -19,6 +19,9 @@ sudo yum install python-devel
 sudo apt-get install python-dev
 # install thefuck
 sudo pip install thefuck
+# install oh-my-zsh deps
+sudo yum install git zsh
+sudo apt-get install git zsh
 # setup oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
