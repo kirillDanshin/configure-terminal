@@ -4,6 +4,7 @@ my terrminal setup commands
 # The commands itself
 
 ```
+cd ~
 # clone
 git clone https://github.com/powerline/fonts.git
 # install
