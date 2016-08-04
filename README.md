@@ -1,4 +1,4 @@
-# init-shell
+# Configure terminal
 my terrminal setup commands
 
 # The commands itself
