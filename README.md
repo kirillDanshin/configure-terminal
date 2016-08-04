@@ -13,7 +13,7 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
-# install python-devel. one of this commands will fail but it's ok.
+# install python-devel. one of this commands will fail but it\'s ok.
 # yum command will work on fedora too.
 sudo yum install python-devel
 sudo apt-get install python-dev
